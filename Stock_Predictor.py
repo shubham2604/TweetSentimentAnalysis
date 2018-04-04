@@ -73,4 +73,4 @@ def stock_prediction():
 
     '''
 stock_quote = input('Enter a Stock : ').upper()
-print(stock_sentiment(stock_quote, num_tweets=100))
+print(stock_sentiment(stock_quote, num_tweets=10000))
